@@ -55,7 +55,6 @@ dicionário (in português) or commonly known as a dictionary (in English) is an
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ### Built With
-* Vanilla JS
 * HTML
 * CSS
 * Vue JS
