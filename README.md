@@ -33,7 +33,7 @@
 This project was created to fulfill the middle examination in a web development course. Therefore, I build an application, namely:
 
 ### dicionário
-dicionário (in português) or commonly known as a dictionary (in English) is an applications that contain various languages that can help us to translate a text from one language to another.
+dicionário (in português) or commonly known as a dictionary (in English) is an applications that contain various languages that can help us to translate a text from one language to another, but this project only containts the variety of language that can help the translator main machine.
  This application also has several features, including :
 - Add language
 - Delete language
