@@ -2,7 +2,7 @@
   <div> 
     <h1>d i c i o n á r i o</h1>
     <div>
-      <b-img src="./assets/language.jpg"></b-img>
+      <b-img src="./components/assets/language.jpg"></b-img>
     </div>
     <div class="d-flex justify-content-center" id="search-bar">
       <b-form-input v-model="text" placeholder="Search language"></b-form-input>
@@ -16,9 +16,9 @@
           <h4 id="sidebar-no-header-title">d i c i o n á r i o' s m e n u </h4>
           <nav class="mb-3">
             <b-nav vertical>
-              <b-nav-item href="" active>Add New Language</b-nav-item>
-              <b-nav-item href="#link-1">Edit List of Languages</b-nav-item>
-              <b-nav-item href="#link-2">Delet Language</b-nav-item>
+              <b-nav-item >Add New Language</b-nav-item>
+              <b-nav-item >Edit List of Languages</b-nav-item>
+              <b-nav-item >Delete Language</b-nav-item>
             </b-nav>
           </nav>
           <b-button variant="primary" block>Close</b-button>
@@ -31,11 +31,13 @@
 <script>
 import axios from "axios";
 import TableOfLanguage from "./TableOfLanguage.vue"
+import AddLanguageModal from "./CRUD.vue"
 
 export default {
   name: 'Language',
   components: {
     TableLanguage: TableOfLanguage,
+    AddLanguageModal: AddLanguage
   },
   created() {
     axios.get('http://localhost:3000/language')

@@ -11,7 +11,7 @@
     >
       <form ref="form" @submit.stop.prevent="handleSubmit">
         <b-form-group
-          label="Name"
+          label="Language Name"
           label-for="name-input"
           invalid-feedback="Language name is required"
           :state="nameState"

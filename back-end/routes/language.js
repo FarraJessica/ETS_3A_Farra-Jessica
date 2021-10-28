@@ -19,11 +19,6 @@ router.get('/', function(req, res, next) {
      	  res.json(respond);
     })
 });
-// router.get('/:name', function(req, res, next) {
-//   language.findByPk(req.params.name).then((respond) => {
-// 	  res.json(respond);
-//   })
-// });
 
 // POST
 router.post('/', function(req, res, next) {
@@ -45,29 +40,17 @@ router.put('/:language_id', function (req, res, next) {
 });
 
 // DELETE
-// router.delete('/:name', function (req, res, next) {
-//   language.destroy({
-//     where: {
-//       name: req.params.name
-//     }
-//   })
-//     .then((respond) => {
-//       res.json(respond),
-//       message
-//   })
-//   .catch((error) => next(error))
-// });
 router.delete('/:name', function (req, res, next) {
   language.destroy({
     where: {
       name: req.params.name
     }
   })
-    .then(() => {
-      view.messageSuccess('Data with name ${name} success deleted');
-    })
-    .catch(error => {
-      view.messageError(error.message);
-    })
+    .then((respond) => {
+      res.json(respond),
+      message
+  })
+  .catch((error) => next(error))
 });
+
 module.exports = router;
