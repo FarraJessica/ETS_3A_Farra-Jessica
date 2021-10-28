@@ -11,7 +11,7 @@
 <br />
 <div>
   <h3 align="center">d i c i o n á r i o</h>
-  <p align="center">contain any variety of world's language</p>
+  <p align="center">contains various types of languages that exist in the world</p>
 </div>
 
 <!-- TABLE OF CONTENTS -->
