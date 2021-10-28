@@ -11,7 +11,7 @@
 <br />
 <div>
   <h3 align="center">d i c i o n á r i o</h>
-  <p align="center">A dictionary with languages that can suit your needs</p>
+  <p align="center">contains various types of languages that exist in the world</p>
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -21,22 +21,10 @@
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
-        <li><a href="#thcronômetro">Dicionário</a></li>
+        <li><a href="#thd i c i o n á r i o">Dicionário</a></li>
 	<li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
@@ -45,7 +33,7 @@
 This project was created to fulfill the middle examination in a web development course. Therefore, I build an application, namely:
 
 ### dicionário
-dicionário (in português) or commonly known as a dictionary (in English) is an applications that contain various languages that can help us to translate a text from one language to another.
+dicionário (in português) or commonly known as a dictionary (in English) is an applications that contain various languages that can help us to translate a text from one language to another, but this project only containts the variety of language that can help the translator main machine.
  This application also has several features, including :
 - Add language
 - Delete language
@@ -55,7 +43,6 @@ dicionário (in português) or commonly known as a dictionary (in English) is an
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ### Built With
-* Vanilla JS
 * HTML
 * CSS
 * Vue JS
