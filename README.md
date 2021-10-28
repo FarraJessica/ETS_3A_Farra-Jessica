@@ -11,7 +11,7 @@
 <br />
 <div>
   <h3 align="center">d i c i o n á r i o</h>
-  <p align="center">A dictionary with languages that can suit your needs</p>
+  <p align="center">contain any variety of world's language</p>
 </div>
 
 <!-- TABLE OF CONTENTS -->
