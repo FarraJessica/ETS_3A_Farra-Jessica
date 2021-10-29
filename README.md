@@ -20,6 +20,8 @@
   <ol>
     <li>
       <a href="#about-the-author">About The Author</a>
+    </li>
+    <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
         <li><a href="#thd i c i o n á r i o">Dicionário</a></li>
