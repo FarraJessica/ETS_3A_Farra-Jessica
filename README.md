@@ -33,17 +33,16 @@
 
 
 <!-- ABOUT THE AUTHOR -->
-## About The Author
+# About The Author
 Hello! I'm Farra Jessica or you can call me Jess, I'm the author of this project. I'm currently studying in computer engineering and informatics, class 3A - D4 Informatics Engineering. I am a student from Bandung city and have an interest in UI & UX in web development.
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+# About The Project
 This project was created to fulfill the middle examination in a web development course. Therefore, I build an application, namely:
 
-### dicionário
-## Usage
+## dicionário
 <div>
-	<img width="100%" src="images/usage.gif" />
+	<img width="100%" src="images/preview.png" />
 </div>
 dicionário (in português) or commonly known as a dictionary (in English) is an applications that contain various languages that can help us to translate a text from one language to another, but this project only containts the variety of language that can help the translator main machine.
  This application also has several features, including :
@@ -54,7 +53,7 @@ dicionário (in português) or commonly known as a dictionary (in English) is an
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-### Built With
+## Built With
 * Node JS
 * HTML
 * CSS
