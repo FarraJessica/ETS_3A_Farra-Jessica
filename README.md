@@ -41,6 +41,10 @@ Hello! I'm Farra Jessica or you can call me Jess, I'm the author of this project
 This project was created to fulfill the middle examination in a web development course. Therefore, I build an application, namely:
 
 ### dicionário
+## Usage
+<div>
+	<img width="100%" src="images/usage.gif" />
+</div>
 dicionário (in português) or commonly known as a dictionary (in English) is an applications that contain various languages that can help us to translate a text from one language to another, but this project only containts the variety of language that can help the translator main machine.
  This application also has several features, including :
 - Add language
@@ -55,5 +59,6 @@ dicionário (in português) or commonly known as a dictionary (in English) is an
 * HTML
 * CSS
 * Vue JS
+* Restful API
 
 <p align="right">(<a href="#top">back to top</a>)</p>
