@@ -28,6 +28,11 @@
   </ol>
 </details>
 
+
+<!-- ABOUT THE AUTHOR -->
+## About The Author
+Hello! I'm Farra Jessica or you can call me Jess, I'm the author of this project. I'm currently studying in computer engineering and informatics, class 3A - D4 Informatics Engineering. I am a student from Bandung city and have an interest in UI & UX in web development.
+
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 This project was created to fulfill the middle examination in a web development course. Therefore, I build an application, namely:
