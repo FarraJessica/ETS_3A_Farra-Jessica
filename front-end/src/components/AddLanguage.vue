@@ -1,6 +1,6 @@
 <template>
   <div class="overlay">
-    <b-button v-b-modal.add-modal-prevent-closing @click.prevent="toggleModal" :items="msg">
+    <b-button variant="dark" v-b-modal.add-modal-prevent-closing @click.prevent="toggleModal" :items="msg">
       Add New Language
     </b-button>
     <b-modal

@@ -1,19 +1,23 @@
 <template>
   <div> 
     <h1>d i c i o n á r i o</h1>
-    <div class="d-flex justify-content-center">
+    <div>
       <b-img src="language.jpg"></b-img>
     </div>
-    <div class="d-flex justify-content-center" id="search-bar">
-      <b-form-input v-model="text" placeholder="Search language"></b-form-input>
+    <div class="d-flex justify-content-center">
+      <div id="search-bar">
+        <b-form-input v-model="text" placeholder="Search language"></b-form-input>
+      </div>
       <b-button variant="dark" @click="search()">Search</b-button>
     </div>
-    <TableLanguage :msg="filter"/>
-    <AddLanguageModal :msg="text"/>
-    <br>
-    <UpdateLanguageModal :msg="text"/>
-    <br>
-    <DeleteLanguageModal :msg="text"/>
+    <div class="d-flex justify-content-center" id="table">
+      <TableLanguage :msg="filter"/>
+    </div>
+    <div class="d-flex justify-content-center" id="button-option">
+      <AddLanguageModal :msg="text"/>
+      <UpdateLanguageModal :msg="text"/>
+      <DeleteLanguageModal :msg="text"/>
+    </div>
   </div>
 </template>
 
@@ -81,7 +85,12 @@ b-form-input{
   margin: 20px;
 }
 #search-bar {
-  max-width: 50%;
-  text-align: center;
+  max-width: 100%;
+}
+#table {
+  max-width: 200%;
+}
+#button-option {
+  max-width: 100%;
 }
 </style>

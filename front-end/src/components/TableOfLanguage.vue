@@ -30,14 +30,6 @@ import axios from "axios";
             label: 'Language Name',
             sortable: true,
           },
-          {
-            key: 'updateOption',
-            label: 'Update',
-          },
-          {
-            key: 'deleteOption',
-            label: 'Delete',
-          }
         ],
          items: []
       }
