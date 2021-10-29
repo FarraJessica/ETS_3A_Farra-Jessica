@@ -19,6 +19,9 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
+      <a href="#about-the-author">About The Author</a>
+    </li>
+    <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
         <li><a href="#thd i c i o n á r i o">Dicionário</a></li>
@@ -28,23 +31,34 @@
   </ol>
 </details>
 
+
+<!-- ABOUT THE AUTHOR -->
+## About The Author
+Hello! I'm Farra Jessica or you can call me Jess, I'm the author of this project. I'm currently studying in computer engineering and informatics, class 3A - D4 Informatics Engineering. I am a student from Bandung city and have an interest in UI & UX in web development.
+
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 This project was created to fulfill the middle examination in a web development course. Therefore, I build an application, namely:
 
 ### dicionário
+## Usage
+<div>
+	<img width="100%" src="images/usage.gif" />
+</div>
 dicionário (in português) or commonly known as a dictionary (in English) is an applications that contain various languages that can help us to translate a text from one language to another, but this project only containts the variety of language that can help the translator main machine.
  This application also has several features, including :
 - Add language
+- Search Language
+- Update Language
 - Delete language
-- Translate 
-- Reverse Translate
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ### Built With
+* Node JS
 * HTML
 * CSS
 * Vue JS
+* Restful API
 
 <p align="right">(<a href="#top">back to top</a>)</p>
