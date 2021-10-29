@@ -1,10 +1,12 @@
 <template>
-  <div>
-    <b-button v-b-modal.modal-prevent-closing>Open Modal</b-button>
+  <div class="overlay">
+    <b-button v-b-modal.delete-modal-prevent-closing @click.prevent="toggleModal" :items="msg">
+      Delete Language
+    </b-button>
     <b-modal
-      id="modal-prevent-closing"
+      id="delete-modal-prevent-closing"
       ref="modal"
-      title="Add Language"
+      title="Delete Language"
       @show="resetModal"
       @hidden="resetModal"
       @ok="handleOk"
@@ -18,8 +20,7 @@
         >
           <b-form-input
             id="name-input"
-            v-model="name"
-            :state="nameState"
+            v-model="languageName"
             required
           ></b-form-input>
         </b-form-group>
@@ -29,14 +30,19 @@
 </template>
 
 <script>
+import axios from "axios";
   export default {
     data() {
       return {
-        name: '',
-        nameState: null,
+        languageName: '',
+        isVisibility: false,
+        result: []
       }
     },
     methods: {
+      toggleModal() {
+        this.isVisibility = !this.isVisibility;
+      },
       checkFormValidity() {
         const valid = this.$refs.form.checkValidity()
         this.nameState = valid
@@ -57,6 +63,10 @@
         if (!this.checkFormValidity()) {
           return
         }
+        axios.delete('http://localhost:3000/language/' + this.languageName)
+        .then((response) => {
+          console.log(response.data)
+        })
         // Hide the modal manually
         this.$nextTick(() => {
           this.$bvModal.hide('modal-prevent-closing')

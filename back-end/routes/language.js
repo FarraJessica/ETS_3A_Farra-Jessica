@@ -14,24 +14,24 @@ router.get('/', function(req, res, next) {
     'Content-Type', 'application/json'
   )
 
-  language.findAll()
+  language.findAll({order: [['language_id', 'ASC']]})
     .then((respond) => {
      	  res.json(respond);
     })
 });
 
 // POST
-router.post('/', function(req, res, next) {
+router.post('/', function (req, res, next) {
   language.create(req.body).then((respond) => {
     res.json(respond)
-  }).catch((err) => next(err))
+  }).catch((error) => next(error))
 });
 
 // UPDATE
-router.put('/:language_id', function (req, res, next) {
-  language.update(req.body, {
+router.put('/', function (req, res, next) {
+  language.update({ name: req.body.newName}, {
     where: {
-      language_id: req.params.language_id
+      name: req.body.oldName
     }})
     .then((respond) => {
       res.json(respond)

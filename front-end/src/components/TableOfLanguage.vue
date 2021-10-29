@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="table" class="d-flex justify-content-center">
     <b-table striped hover :items="msg" :fields="fields"></b-table>
   </div>
 </template>
@@ -19,7 +19,6 @@ import axios from "axios";
     },
     data() {
       return {
-        // Note 'isActive' is left out and will not appear in the rendered table
         fields: [
           {
             key: 'language_id',
@@ -30,6 +29,14 @@ import axios from "axios";
             key: 'name',
             label: 'Language Name',
             sortable: true,
+          },
+          {
+            key: 'updateOption',
+            label: 'Update',
+          },
+          {
+            key: 'deleteOption',
+            label: 'Delete',
           }
         ],
          items: []
@@ -37,3 +44,8 @@ import axios from "axios";
     }
   }
 </script>
+<style scoped>
+#table {
+  max-width: 80%;
+}
+</style>
