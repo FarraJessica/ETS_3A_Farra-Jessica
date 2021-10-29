@@ -1,6 +1,6 @@
 <template>
   <div class="overlay">
-    <b-button variant="dark" v-b-modal.delete-modal-prevent-closing @click.prevent="toggleModal" :items="msg">
+    <b-button variant="danger" v-b-modal.delete-modal-prevent-closing @click.prevent="toggleModal" :items="msg">
       Delete Language
     </b-button>
     <b-modal
