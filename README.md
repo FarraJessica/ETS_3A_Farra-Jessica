@@ -36,13 +36,14 @@ This project was created to fulfill the middle examination in a web development 
 dicionário (in português) or commonly known as a dictionary (in English) is an applications that contain various languages that can help us to translate a text from one language to another, but this project only containts the variety of language that can help the translator main machine.
  This application also has several features, including :
 - Add language
+- Search Language
+- Update Language
 - Delete language
-- Translate 
-- Reverse Translate
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ### Built With
+* Node JS
 * HTML
 * CSS
 * Vue JS
