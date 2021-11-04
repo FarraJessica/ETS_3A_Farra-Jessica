@@ -72,20 +72,20 @@ dicionário (in português) or commonly known as a dictionary (in English) is an
 ### :keyboard: Installation
 
 To add the project to your computer within this contribution you could do:
-:one:  Open command prompt
-:two:  `cd` to the destination that you desire on your PC
-:three: Clone the repository
+- :one:  Open command prompt
+- :two:  `cd` to the destination that you desire on your PC
+- :three: Clone the repository
 	```sh 
 	 https://github.com/FarraJessica/ETS_3A_Farra-Jessica.git
 	 ```
   by `git clone` `https://github.com/FarraJessica/ETS_3A_Farra-Jessica.git` command
-:four: Open the back-end folder inside the repository until you can see the content of back-end's folder and copy the path
-:five: Open command prompt, write `cd` and paste the path of back-end's folder, then install npm with `npm install` command
-:six: After the installation is complete, to run the back-end you can write `npm start` command
-:seven: Open the front-end folder inside the repository until you can see the content of front-end's folder and copy the path
-:eight: Open command prompt, write `cd` and paste the path of front-end's folder, then install npm with `npm install` command
-:nine: After the installation is complete, to run the front-end you can write `npm run serve` command
-:keycap_ten: Then the *d i c i o n á r i o* program has been installed, you can use the features in the UI of the application according to the usage below
+- :four: Open the back-end folder inside the repository until you can see the content of back-end's folder and copy the path
+- :five: Open command prompt, write `cd` and paste the path of back-end's folder, then install npm with `npm install` command
+- :six: After the installation is complete, to run the back-end you can write `npm start` command
+- :seven: Open the front-end folder inside the repository until you can see the content of front-end's folder and copy the path
+- :eight: Open command prompt, write `cd` and paste the path of front-end's folder, then install npm with `npm install` command
+- :nine: After the installation is complete, to run the front-end you can write `npm run serve` command
+- :keycap_ten: Then the *d i c i o n á r i o* program has been installed, you can use the features in the UI of the application according to the usage below
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
