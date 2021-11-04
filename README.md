@@ -49,10 +49,11 @@ This project was created to fulfill the middle examination in a web development 
 </div>
 dicionário (in português) or commonly known as a dictionary (in English) is an applications that contain various languages that can help us to translate a text from one language to another, but this project only containts the variety of language that can help the translator main machine.
  This application also has several features, including :
-- Add language
-- Search Language
-- Update Language
-- Delete language
+ 
+- :star2: Add language
+- :star2: Search Language
+- :star2: Update Language
+- :star2: Delete language
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
