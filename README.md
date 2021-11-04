@@ -10,7 +10,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div>
-  <h3 align="center">d i c i o n á r i o</h>
+  <h3 align="center">:notebook_with_decorative_cover: d i c i o n á r i o :notebook_with_decorative_cover:</h>
   <p align="center">contains various types of languages that exist in the world</p>
 </div>
 
@@ -78,7 +78,7 @@ To add the project to your computer within this contribution you could do:
 	```sh 
 	 https://github.com/FarraJessica/ETS_3A_Farra-Jessica.git
 	 ```
-by `git clone` `https://github.com/FarraJessica/ETS_3A_Farra-Jessica.git` command
+  by `git clone` `https://github.com/FarraJessica/ETS_3A_Farra-Jessica.git` command
 - Open the back-end folder inside the repository until you can see the content of back-end's folder and copy the path
 - Open command prompt, write `cd` and paste the path of back-end's folder, then install npm with `npm install` command
 - After the installation is complete, to run the back-end you can write `npm start` command
@@ -86,6 +86,8 @@ by `git clone` `https://github.com/FarraJessica/ETS_3A_Farra-Jessica.git` comman
 - Open command prompt, write `cd` and paste the path of front-end's folder, then install npm with `npm install` command
 - After the installation is complete, to run the front-end you can write `npm run serve` command
 - Then the *d i c i o n á r i o* program has been installed, you can use the features in the UI of the application according to the usage below
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 
 <!-- USAGE EXAMPLES -->
@@ -106,4 +108,6 @@ Contributions are what make the open source community such an amazing place to l
 
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
 
-Don't forget to give the project a star! Thanks again!
+Don't forget to give the project a star! Thanks again! :star_struck:
+
+<p align="right">(<a href="#top">back to top</a>)</p>
