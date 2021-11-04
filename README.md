@@ -36,14 +36,14 @@
 
 
 <!-- ABOUT THE AUTHOR -->
-# About The Author
+# :girl: About The Author
 Hello! I'm Farra Jessica or you can call me Jess, I'm the author of this project. I'm currently studying in computer engineering and informatics, class 3A - D4 Informatics Engineering. I am a student from Bandung city and have an interest in UI & UX in web development.
 
 <!-- ABOUT THE PROJECT -->
-# About The Project
+# :open_book: About The Project
 This project was created to fulfill the middle examination in a web development course. Therefore, I build an application, namely:
 
-## dicionário
+## :notebook: dicionário
 <div>
 	<img width="100%" src="images/preview.png" />
 </div>
@@ -56,7 +56,7 @@ dicionário (in português) or commonly known as a dictionary (in English) is an
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-## Built With
+## :computer: Built With
 * Node JS
 * HTML
 * CSS
@@ -67,9 +67,9 @@ dicionário (in português) or commonly known as a dictionary (in English) is an
 
 
 <!-- GETTING STARTED -->
-## Getting Started
+## :desktop_computer: Getting Started
 
-### Installation
+### :keyboard: Installation
 
 To add the project to your computer within this contribution you could do:
 -  Open command prompt
@@ -91,18 +91,18 @@ To add the project to your computer within this contribution you could do:
 
 
 <!-- USAGE EXAMPLES -->
-## Usage
+## :book: Usage
 To use this app, you can:
-1. Add  new language, if there is a new language that is not in the list and you want to add it
-2. Search language, if you want to check the presence of a language in the list
-3. Update the language, if you want to update the language in the list because there is a writing error and so on
-4. Delete the language, if there is a language that is no longer in use
+1. 	:pencil2: Add  new language, if there is a new language that is not in the list and you want to add it
+2. :mag: Search language, if you want to check the presence of a language in the list
+3. :memo: :pencil: Update the language, if you want to update the language in the list because there is a writing error and so on
+4. :wastebasket: Delete the language, if there is a language that is no longer in use
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
 <!-- CONTRIBUTING -->
-## Contributing
+## :writing_hand: Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
