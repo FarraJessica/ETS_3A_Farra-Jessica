@@ -91,11 +91,11 @@ To add the project to your computer within this contribution you could do:
 
 
 <!-- USAGE EXAMPLES -->
-## :book: Usage
+## :bulb: Usage
 To use this app, you can:
 1. 	:pencil2: Add  new language, if there is a new language that is not in the list and you want to add it
 2. :mag: Search language, if you want to check the presence of a language in the list
-3. :memo: :pencil: Update the language, if you want to update the language in the list because there is a writing error and so on
+3. :memo: Update the language, if you want to update the language in the list because there is a writing error and so on
 4. :wastebasket: Delete the language, if there is a language that is no longer in use
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -108,6 +108,6 @@ Contributions are what make the open source community such an amazing place to l
 
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
 
-Don't forget to give the project a star! Thanks again! :star_struck:
+Don't forget to give the project a star! Thanks again! :star_struck: :star2:
 
 <p align="right">(<a href="#top">back to top</a>)</p>
