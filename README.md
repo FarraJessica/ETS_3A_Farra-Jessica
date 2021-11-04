@@ -72,20 +72,20 @@ dicionário (in português) or commonly known as a dictionary (in English) is an
 ### Installation
 
 To add the project to your computer within this contribution you could do:
-1. Open command prompt
-2. `cd` to the destination that you desire on your PC
-3. Clone the repository
+-  Open command prompt
+-  `cd` to the destination that you desire on your PC
+- Clone the repository
 	```sh 
 	 https://github.com/FarraJessica/ETS_3A_Farra-Jessica.git
 	 ```
 by `git clone` `https://github.com/FarraJessica/ETS_3A_Farra-Jessica.git` command
-4. Open the back-end folder inside the repository until you can see the content of back-end's folder and copy the path
-5. Open command prompt, write `cd` and paste the path of back-end's folder, then install npm with `npm install` command
-6. After the installation is complete, to run the back-end you can write `npm start` command
-7. Open the front-end folder inside the repository until you can see the content of front-end's folder and copy the path
-8. Open command prompt, write `cd` and paste the path of front-end's folder, then install npm with `npm install` command
-9. After the installation is complete, to run the front-end you can write `npm run serve` command
-10. Then the *d i c i o n á r i o* program has been installed, you can use the features in the UI of the application according to the usage below
+- Open the back-end folder inside the repository until you can see the content of back-end's folder and copy the path
+- Open command prompt, write `cd` and paste the path of back-end's folder, then install npm with `npm install` command
+- After the installation is complete, to run the back-end you can write `npm start` command
+- Open the front-end folder inside the repository until you can see the content of front-end's folder and copy the path
+- Open command prompt, write `cd` and paste the path of front-end's folder, then install npm with `npm install` command
+- After the installation is complete, to run the front-end you can write `npm run serve` command
+- Then the *d i c i o n á r i o* program has been installed, you can use the features in the UI of the application according to the usage below
 
 
 <!-- USAGE EXAMPLES -->
