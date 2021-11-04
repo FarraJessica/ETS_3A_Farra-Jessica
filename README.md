@@ -27,7 +27,7 @@
         <li><a href="#thd i c i o n á r i o">Dicionário</a></li>
 	<li><a href="#built-with">Built With</a></li>
 	<li><a href="#getting-started">Getting Startedh</a></li>
-	<li><a href="#usage"Usage</a></li>
+	<li><a href="#usage">Usage</a></li>
 	<li><a href="#contributing">Contributing</a></li>
       </ul>
     </li>
@@ -86,7 +86,6 @@ by `git clone` `https://github.com/FarraJessica/ETS_3A_Farra-Jessica.git` comman
 8. Open command prompt, write `cd` and paste the path of front-end's folder, then install npm with `npm install` command
 9. After the installation is complete, to run the front-end you can write `npm run serve` command
 10. Then the *d i c i o n á r i o* program has been installed, you can use the features in the UI of the application according to the usage below
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 
 <!-- USAGE EXAMPLES -->
